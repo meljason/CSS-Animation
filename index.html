@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
     <title>Document</title>
 </head>
 
@@ -16,7 +18,6 @@
             <h1>Welcome to<span> Toronto</span></h1>
             <p>Created By Jason Chong</p>
             <a href="#foodPlace"><button type="button" class="btn-left">Explore</button></a>
-            <!-- <button type="button" class="btn-left">Explore</button> -->
             <button type="button" class="btn-right">Subscribe</button>
         </div>
     </div>
@@ -45,11 +46,11 @@
                 </div>
 
                 <div class="third-box">
-                        <div class="box3">
-                            <span class="border"></span>
-                            <h2>Trattoria Mercatto <br> Italian <br> <span>Yonge St, Downtown</span> </h2>
-                        </div>
+                    <div class="box3">
+                        <span class="border"></span>
+                        <h2>Kelly's Landing <br> Canadian <br> <span>Dundas St, Downtown</span> </h2>
                     </div>
+                </div>
             </div>
         </div>
 
@@ -59,7 +60,13 @@
     </div>
 
     <div id="car-container">
-        <div class="night"></div>
+        <div class="night">
+            <h1>Let's Drive Through Toronto! <span><br> Press Enter To Start/Stop the car <br> Press W to turn on/off the headlight</span></h1>
+            <div class="surface"></div>
+            <div class="car">
+                <img src="./img/car.png" alt="car" srcset="">
+            </div>
+        </div>
     </div>
 </body>
 
